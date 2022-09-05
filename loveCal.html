@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    
+            .seville {
+                background:white;
+                padding:1em 2em;
+                
+                
+                background-color: aquamarine;
+                border:0.4em solid black;
+                border-radius:2em 0 2em 0;
+                color:black;
+                font-weight:bold;
+                transition:0.1s;
+                opacity:1;
+                width: 25%;
+                margin: 0px auto;
+                /*margin-left: 50%;*/
+                margin-top: 200px;
+                text-align: center;
+            }
+            .seville:hover {
+                background:black;
+                color:white;
+                transition:0.1s;
+            }
+
+        
+    </style>
+    <title>Love calculator</title>
+</head>
+<body>
+    <div onclick="love();" class="html_button btn seville large btn-left">
+     Click me.
+    </div>
+    
+<script>
+        function love(){
+
+            let first = prompt("Enter your name");
+            let second = prompt("Enter Your crush's name");
+            
+            let loveCal = Math.random() * 100;
+            
+            alert(`Love between ${first} and ${second} is ${Math.floor(loveCal)+1}% `);
+        }
+</script>
+</body>
+</html>
