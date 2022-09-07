@@ -1,0 +1,40 @@
+body
+{
+    background-color:darkslategray;
+    
+}
+h1
+{
+    color: lawngreen;
+    font-weight: bold;
+    font-family:'Lobster', cursive;
+    font-size: 8rem;
+    text-align: center;
+}
+
+.players
+{
+    color: lawngreen;
+    font-weight: bold;
+    font-family:'Lobster', cursive;
+    text-align: center;
+    font-size: 5rem;
+}
+table
+{
+    width: 100%;
+    /* background-color: antiquewhite; */
+}
+img
+{
+    margin-left: 290px;
+    padding: 50px;
+}
+p
+{
+    color:white;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;    
+}

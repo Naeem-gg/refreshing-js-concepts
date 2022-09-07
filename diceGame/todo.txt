@@ -1,0 +1,2 @@
+ask for players names on load of window
+instead of refreshing again and again make a button that do the same but without refreshing.
