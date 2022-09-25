@@ -56,7 +56,7 @@ for (let index = 0; index < 7; index++) {
   //       break;
   //   }
   // });
-document.addEventListener("keypress", function (event) {
+document.addEventListener("keydown", function (event) {
   switch (event.key) {
     case "w":
       let k = new Audio("sounds/kick-bass.mp3");
@@ -92,7 +92,7 @@ document.addEventListener("keypress", function (event) {
       break;
 
     default:
-      console.log("dekhke type kr be"+event);
+      console.log("dekhke type kr be "+event);
       break;
   }
 });
